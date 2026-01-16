@@ -86,6 +86,9 @@ function printDailySummary(log) {
     console.log(`${entry.day}: ${entry.minutes} mins reading "${entry.book}"`);
   }
 }
+// the line above could be improved because the text format is fixed and can't easily be changed later.
+// my suggested change is to store the message in a variable before logging it.
+// this would be helpful because it makes the code easier to modify and reuse for the future
 
 // Example usage
 // calling the functions here is important because it triggers the code and shows the real output in the console
