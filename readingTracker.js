@@ -1,3 +1,6 @@
+// Repo URL
+// https://github.com/john-galvao/cs81-module4a-reviewtracker.git
+
 // Weekly reading log
 // const is used so the readingLog array cannot be replaced by another value, which protects the main data list
 // The log below is stored as an array where each object represents one day of reading
