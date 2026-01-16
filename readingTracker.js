@@ -93,6 +93,7 @@ function printDailySummary(log) {
 // Example usage
 // calling the functions here is important because it triggers the code and shows the real output in the console
 addReadBook("Saturday", "Dune", 50);
+addReadBook("Sunday", "Thinking, Fast and Slow", 60);
 printDailySummary(readingLog);
 console.log("Total minutes read:", totalReadingMinutes(readingLog));
 console.log("Most read book:", mostReadBook(readingLog));
